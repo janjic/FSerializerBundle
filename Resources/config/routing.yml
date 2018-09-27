@@ -1,0 +1,3 @@
+f_serializer_homepage:
+    path:     /branko/test/json
+    defaults: { _controller: FSerializerBundle:Default:index }

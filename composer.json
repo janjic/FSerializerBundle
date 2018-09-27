@@ -1,0 +1,19 @@
+{
+  "name": "fsd/f_serializer_bundle",
+  "type": "symfony-bundle",
+  "description": "This bundle provides a typed enumeration for Symfony applications",
+  "keywords": ["json api serialization"],
+  "authors": [
+    {
+      "name": "Branko Janjic",
+      "email": "branko.janjic@fsd.rs"
+    }
+  ],
+
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": { "FSerializerBundle\\": "" }
+  }
+}
